@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
-import { signOut, auth } from "../../../auth"
+import { signOut, auth } from "auth"
 import { redirect } from "next/navigation"
 
 export default async function () {

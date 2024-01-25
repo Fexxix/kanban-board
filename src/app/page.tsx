@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { auth } from "../../auth"
+import { auth } from "auth"
 import { redirect } from "next/navigation"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
