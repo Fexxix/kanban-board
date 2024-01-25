@@ -4,7 +4,7 @@ import Image from "next/image"
 import { signOut, auth } from "auth"
 import { redirect } from "next/navigation"
 
-export default async function () {
+export default async function Boards() {
   const session = await auth()
 
   if (!session) {

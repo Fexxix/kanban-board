@@ -3,7 +3,7 @@ import { auth } from "auth"
 import { redirect } from "next/navigation"
 import Image from "next/image"
 
-export default async function () {
+export default async function Login() {
   const session = await auth()
 
   if (session) {
@@ -22,7 +22,7 @@ export default async function () {
       <h1 className="text-4xl font-semibold">Sign In</h1>
       <GitHubSignInButton />
       <span className="text-sm text-slate-600">
-        If you don't have an account it'll be created
+        If you don&apos;t have an account it&apos;ll be created
       </span>
     </div>
   )
